@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Image and Text Layout</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+        }
+        .container {
+            display: flex;
+            align-items: center;
+        }
+        .image-container {
+            flex: 1;
+            padding: 20px;
+        }
+        .image-container img {
+            max-width: 100%;
+            height: auto;
+            display: block;
+        }
+        .text-container {
+            flex: 2;
+            padding: 20px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="image-container">
+            <img src="your_image_url.jpg" alt="Image" height="50px" width="70px" style="border: 10; margin:10;">
+        </div>
+        <div class="text-container">
+            <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque pharetra ligula eget finibus luctus. Integer sit amet ex velit. Ut vitae ipsum in neque feugiat rutrum. Nunc ac erat at orci tincidunt pellentesque. Sed et nunc risus. Pellentesque ultrices ipsum ac ex interdum, in euismod purus faucibus. Nulla facilisi. Donec vitae scelerisque quam. Praesent sit amet neque quam. Duis malesuada odio eget nunc rhoncus fringilla. Sed vel nulla semper, posuere justo eu, aliquam mi. Integer volutpat odio et arcu varius, non faucibus eros posuere. Vivamus id quam lacus. Sed eleifend interdum venenatis. Nulla facilisi.
+            </p>
+        </div>
+    </div>
+</body>
+</html>
